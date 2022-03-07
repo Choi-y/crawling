@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class DbDAO {
     static void UploadToDB(ArrayList<WeatherVO> WV) {
         String driver = "org.mariadb.jdbc.Driver";
-        String url="jdbc:mysql://localhost:3306/potato?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC";
+        String url="jdbc:mysql://localhost:3306/**?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC";
         String user="root";
         String pw="12345";
         Connection con;
