@@ -15,7 +15,7 @@ public class CovidDAO {
         String url = "https://www.busan.go.kr/covid19/Prevention06.do";
         Document doc = null;
         Elements tmp;
-        String gu = "부산진구";
+        String gu = "동래";
         Timestamp time = null;
         String num = null;
         int index = 0;
