@@ -11,10 +11,10 @@ import java.util.Iterator;
 
 public class WeatherDAO {
     static void WeatherCrawling(ArrayList<WeatherVO> WV) {
-        String url = "https://search.naver.com/search.naver?query=가야동날씨";
+        String url = "https://search.naver.com/search.naver?query=명륜동날씨";
         Document doc = null;
         Elements tmp;
-        String gu = "부산진구";
+        String gu = "동래구";
         String temperature = null;
         String weather = null;
         String tmp2 = null;
